@@ -4,8 +4,8 @@
  Asisten Pemrogaman 13 & 14
 ******************************************/
 
-error_reporting(E_ALL);
-ini_set('display_errors', 5);
+// error_reporting(E_ALL);
+// ini_set('display_errors', 5);
 
 include("view/TampilRencanabaksosdanBaksos.php");
 

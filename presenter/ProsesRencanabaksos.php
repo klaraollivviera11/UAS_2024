@@ -28,7 +28,6 @@ class ProsesRencanabaksos implements KontrakPresenterRencanabaksos
 	function prosesDataRencanabaksos()
 	{
 		try {
-			echo "Starting prosesDataRencanabaksos()<br>";
 			// mengambil data di tabel rencanabaksos
 			$this->tabelrencanabaksos->open();
 			$this->tabelrencanabaksos->getRencanabaksos();

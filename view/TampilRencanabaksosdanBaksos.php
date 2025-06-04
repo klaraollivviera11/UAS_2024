@@ -18,7 +18,7 @@ class TampilRencanabaksosdanBaksos implements KontrakView
 	{
 		//konstruktor
 		$this->prosesrencanabaksos = new ProsesRencanabaksos();
-		$this->prosesbaksos = new ProseBaksos();
+		$this->prosesbaksos = new ProsesBaksos();
 	}
 
 	function tampil()

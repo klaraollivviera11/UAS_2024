@@ -1,7 +1,7 @@
 <?php
 
-include("model/Template.class.php");
-include("model/DB.class.php");
+require_once 'model/Template.class.php';
+require_once 'model/DB.class.php';
 include("model/Rencanabaksos.class.php");
 include("model/TabelRencanabaksos.class.php");
 

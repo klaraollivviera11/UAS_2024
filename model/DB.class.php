@@ -26,11 +26,11 @@ class DB
 		// membuka koneksi
 		$this->db_link = mysqli_connect($this->db_host, $this->db_user, $this->db_password, $this->db_name);
 		
-		// Debug connection
-		if (!$this->db_link) {
-			die("Connection failed: " . mysqli_connect_error());
-		}
-		echo "Database connected successfully<br>";
+		// // Debug connection
+		// if (!$this->db_link) {
+		// 	die("Connection failed: " . mysqli_connect_error());
+		// }
+		// echo "Database connected successfully<br>";
 	}
 
 	function execute($query = "")

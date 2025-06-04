@@ -8,16 +8,8 @@ class TabelRencanabaksos extends DB
 		// Query mysql select data trencanabaksos
 		$query = "SELECT * FROM trencanabaksos";
 		
-		echo "Executing query: " . $query . "<br>";
-		
 		// Mengeksekusi query
 		$result = $this->execute($query);
-		
-		if (!$result) {
-			echo "Query failed: " . mysqli_error($this->db_link) . "<br>";
-		} else {
-			echo "Query successful<br>";
-		}
 		
 		return $result;
 	}

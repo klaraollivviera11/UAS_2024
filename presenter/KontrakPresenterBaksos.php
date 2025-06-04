@@ -1,7 +1,7 @@
 <?php
 
-include("model/Template.class.php");
-include("model/DB.class.php");
+require_once 'model/Template.class.php';
+require_once 'model/DB.class.php';
 include("model/Baksos.class.php");
 include("model/TabelBaksos.class.php");
 
@@ -22,5 +22,5 @@ interface KontrakPresenterBaksos
 	public function getTanggalbaksos($i);
 	public function getDeskripsibaksos($i);
 	public function getLokasibaksos($i);
-	public function getTimpelaksana();
+	public function getTimpelaksana($i);
 }
